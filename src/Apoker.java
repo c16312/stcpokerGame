@@ -46,6 +46,8 @@ public class Apoker {
                 }             
             }
             
+            
+            
             humanPlayer.displayHand();
             
             for(int i=0; i<5; i++){
