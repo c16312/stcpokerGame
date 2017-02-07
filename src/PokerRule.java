@@ -1,9 +1,9 @@
 
 public class PokerRule{
     
+    public int numberJudge=0; /* 役の判定用変数 */
    
     void judge(int[] suit, int[] number){
-        int numberJudge=0; /* 役の判定用変数 */
                 
         for(int i=0; i<5; i++){
             for(int j=i+1; j<5; j++){
@@ -19,6 +19,10 @@ public class PokerRule{
         if(suit[0] == suit[1] && suit[0] == suit[2] && suit[0] == suit[3] && suit[0] == suit[4]){
             System.out.println("ストレートフラッシュ");
         }
+    }
+    
+    int getNumber(){
+       return numberJudge; 
     }
     
     
