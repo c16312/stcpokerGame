@@ -46,7 +46,7 @@ public class Apoker {
                 }             
             }
             
-            
+            pokerRule.getNumber();
             
             humanPlayer.displayHand();
             
